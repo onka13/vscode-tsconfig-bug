@@ -1,0 +1,25 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon",
+    "inspect": "nodemon --inspect src/app.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/node": "^12.11.1",
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.17.0",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
